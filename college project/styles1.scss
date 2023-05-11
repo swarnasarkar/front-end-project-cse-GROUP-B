@@ -1,0 +1,42 @@
+$container-background: linear-gradient(45deg, red, orange, red);
+$body-background: linear-gradient(90deg, rgb(19, 230, 201), rgb(182, 195, 235), rgb(19, 230, 201));
+$text-size: 70px;
+$align:center;
+$c1:blue;
+$text-font: georgia;
+
+.custom-container{
+    background-image: $container-background;
+    border-radius: 30px 0 30px;
+}
+
+.b1{
+    background-image: $body-background;
+}
+
+#head2{
+    color: $c1;
+    text-align: $align;
+    font-size: $text-size;
+    font-style: $text-font;
+    font-weight: bold;
+}
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: ghostwhite;
+      font-size: 30px;
+    }
+    background-color: red;
+  }
